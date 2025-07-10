@@ -15,7 +15,9 @@ export default function Students() {
   ];
   return (
     <div>
-      {students.map(std => <Student std={std}/>)}
+      {students.map((std) => (
+        <Student std={std} />
+      ))}
     </div>
   );
 }
