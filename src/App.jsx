@@ -1,18 +1,14 @@
 import React from "react";
 import "./App.css";
-import StyleSheet1 from "./First/StyleComponents/StyleSheet1";
-import StyleSheet2 from "./First/StyleComponents/StyleSheet2";
+import UseStateComponent from "./Hooks/UseState/useStateComponent";
 
-class App extends React.Component {
-  render() {
+function App() {
     return (
       <div>
-        <StyleSheet1/>
-        <StyleSheet2/>
+        <UseStateComponent/>
       </div>
     )
-
   }
-}
+
 
 export default App;
