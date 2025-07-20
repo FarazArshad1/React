@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import UseStateComponentWithObject from "./Hooks/UseState/useStateComponentWithObject";
+import UseStateComponentWithArray from "./Hooks/UseState/useStateComponentWithArray";
 
 function App() {
     return (
       <div>
-        <UseStateComponentWithObject/>
+        <UseStateComponentWithArray/>
       </div>
     )
   }
